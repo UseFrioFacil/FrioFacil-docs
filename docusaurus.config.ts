@@ -25,8 +25,8 @@ const config: Config = {
   // ====== Deploy no GitHub Pages (opcional) ======
   // TODO: Ajuste para sua org/usuário e repositório
   organizationName: 'UseFrioFacil',
-  projectName: 'usefriofacil.github.io',
-
+  projectName: 'FrioFacil-docs',
+  deploymentBranch: 'main',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
