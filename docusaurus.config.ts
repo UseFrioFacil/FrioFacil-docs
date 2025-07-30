@@ -20,12 +20,12 @@ const config: Config = {
   url: '/FrioFacil-docs/',
   // Para GitHub Pages: baseUrl geralmente é '/<repo>/'
   // Ex.: baseUrl: '/frio-facil-docs/'
-  baseUrl: '/',
+  baseUrl: '/FrioFacil-docs/',
 
   // ====== Deploy no GitHub Pages (opcional) ======
   // TODO: Ajuste para sua org/usuário e repositório
   organizationName: 'FrioFacil',
-  projectName: 'frio-facil-docs',
+  projectName: 'FrioFacil-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -47,7 +47,7 @@ const config: Config = {
           // Garante caminho correto do sidebar em setups variados
           sidebarPath: require.resolve('./sidebars.ts'),
           // TODO: Ajuste para seu repositório se quiser "Editar esta página"
-          editUrl: 'https://github.com/UseFrioFacil/FrioFacil-docs/edit/main/',
+          editUrl: 'https://github.com/UseFrioFacil/FrioFacil-docs/tree/main/docs',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
