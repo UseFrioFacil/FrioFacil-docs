@@ -17,7 +17,7 @@ const config: Config = {
 
   // ====== URL/baseUrl ======
   // TODO: Se tiver domínio próprio, troque pela sua URL de produção
-  url: 'https://usefriofacil.github.io/FrioFacil-docs/',
+  url: '/FrioFacil-docs/',
   // Para GitHub Pages: baseUrl geralmente é '/<repo>/'
   // Ex.: baseUrl: '/frio-facil-docs/'
   baseUrl: '/',
