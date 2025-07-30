@@ -24,7 +24,7 @@ const config: Config = {
 
   // ====== Deploy no GitHub Pages (opcional) ======
   // TODO: Ajuste para sua org/usuário e repositório
-  organizationName: 'seu-usuario-ou-org',
+  organizationName: 'FrioFacil',
   projectName: 'frio-facil-docs',
 
   onBrokenLinks: 'throw',
@@ -47,7 +47,7 @@ const config: Config = {
           // Garante caminho correto do sidebar em setups variados
           sidebarPath: require.resolve('./sidebars.ts'),
           // TODO: Ajuste para seu repositório se quiser "Editar esta página"
-          editUrl: 'https://github.com/seu-usuario-ou-org/frio-facil-docs/edit/main/',
+          editUrl: 'https://github.com/UseFrioFacil/FrioFacil-docs/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
