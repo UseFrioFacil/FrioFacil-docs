@@ -26,7 +26,7 @@ const config: Config = {
   // TODO: Ajuste para sua org/usuário e repositório
   organizationName: 'UseFrioFacil',
   projectName: 'FrioFacil-docs',
-  deploymentBranch: 'main',
+  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
