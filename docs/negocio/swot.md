@@ -1,18 +1,18 @@
 # Análise SWOT
 
-**Forças (Strengths):**
+## Forças (Strengths)
 - Foco em um nicho específico.
 - Baixa concorrência direta.
 - Plataforma intuitiva.
 
-**Fraquezas (Weaknesses):**
+## Fraquezas (Weaknesses)
 - Necessidade de validação inicial do mercado.
 - Dependência de base de prestadores ativa.
 
-**Oportunidades (Opportunities):**
+## Oportunidades (Opportunities)
 - Digitalização crescente do setor.
 - Possibilidade de parcerias com fornecedores.
 
-**Ameaças (Threats):**
+## Ameaças (Threats)
 - Concorrentes maiores adotarem modelo similar.
 - Resistência de prestadores a plataformas digitais.

@@ -9,74 +9,58 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Visão geral',
+      label: 'Negócio',
       link: {
         type: 'generated-index',
-        title: 'Visão geral',
-        description:
-          'Contexto e objetivos do Frio Fácil: proposta, ODS e posicionamento.',
-        slug: '/visao-geral',
+        title: 'Negócio',
+        description: 'Documentação de negócio: introdução, problema, personas, Lean Canvas, SWOT e análise de concorrência.',
+        slug: '/negocio',
       },
       items: [
-        // docs/introducao.md
-        'introducao',
+        'negocio/introducao',
+        'negocio/problema',
+        'negocio/personas',
+        'negocio/lean-canvas',
+        'negocio/swot',
+        'negocio/analise-concorrencia',
       ],
     },
     {
       type: 'category',
-      label: 'Planejamento',
+      label: 'Técnico',
       link: {
         type: 'generated-index',
-        title: 'Planejamento',
-        description:
-          'Problema, análise competitiva, personas, SWOT e Lean Canvas.',
-        slug: '/planejamento',
+        title: 'Técnico',
+        description: 'Documentação técnica: backend, frontend e arquitetura do Frio Fácil.',
+        slug: '/tecnico',
       },
       items: [
-        // docs/problema.md
-        'problema',
-        // docs/analise-concorrencia.md
-        'analise-concorrencia',
-        // docs/swot.md
-        'swot',
-        // docs/personas.md
-        'personas',
-        // docs/lean-canvas.md
-        'lean-canvas',
+        'tecnico/backend',
+        'tecnico/frontend',
       ],
     },
     {
       type: 'category',
-      label: 'Produto',
+      label: 'Tutoriais - Básico',
       link: {
         type: 'generated-index',
-        title: 'Produto',
-        description:
-          'Arquitetura, backend, frontend e direção técnica do produto.',
-        slug: '/produto',
+        title: 'Tutorial - Básico',
+        description: '5 minutos para aprender os conceitos mais importantes do Docusaurus.',
+        slug: '/tutorial-basics',
       },
-      items: [
-        // docs/backend.md
-        'backend',
-        // docs/frontend.md
-        'frontend',
-        // Se quiser adicionar depois:
-        // 'arquitetura',
-        // 'api',
-      ],
+      items: [], // Geração automática
     },
-    // Você pode adicionar mais categorias depois, por exemplo:
-    // {
-    //   type: 'category',
-    //   label: 'Operação',
-    //   link: {
-    //     type: 'generated-index',
-    //     title: 'Operação',
-    //     description: 'Roadmap, métricas, governança e suporte.',
-    //     slug: '/operacao',
-    //   },
-    //   items: ['roadmap', 'metricas', 'governanca', 'suporte'],
-    // },
+    {
+      type: 'category',
+      label: 'Tutoriais - Extras',
+      link: {
+        type: 'generated-index',
+        title: 'Tutorial - Extras',
+        description: 'Funcionalidades extras e dicas para o Docusaurus.',
+        slug: '/tutorial-extras',
+      },
+      items: [], // Geração automática
+    },
   ],
 };
 

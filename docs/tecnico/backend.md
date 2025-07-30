@@ -1,38 +1,19 @@
 # Backend
 
-Documentação do backend do **Frio Fácil**.
-
-> **Stack:** Node.js • PostgreSQL • API REST • JWT • Docker  
-> **Versão da API:** `1.0`  
-> **Formato:** JSON (UTF-8)  
-> **Autenticação:** `Authorization: Bearer <token>` nas rotas protegidas.
-
----
+:::info
+**Stack:** Node.js • PostgreSQL • API REST • JWT • Docker  
+**Versão da API:** `1.0`  
+**Formato:** JSON (UTF-8)  
+**Autenticação:** `Authorization: Bearer <token>` nas rotas protegidas.
+:::
 
 ## Sumário
-
-- [Auth](#autenticação-auth)
-  - [POST /api/friofacil/register](#post-apifriofacilregister)
-  - [POST /api/friofacil/login](#post-apifriofacillogin)
-  - [GET /api/friofacil/myaccount](#get-apifriofacilmyaccount-🔒)
-  - [DELETE /api/friofacil/userdelete](#delete-apifriofaciluserdelete-🔒)
+- [Autenticação (Auth)](#autenticacao-auth)
 - [Callback](#callback)
-  - [POST /api/friofacil/payment-callback](#post-apifriofacilpayment-callback)
 - [Empresa (Company)](#empresa-company)
-  - [POST /api/friofacil/createtempcompany](#post-apifriofacilcreatetempcompany-🔒)
-  - [DELETE /api/friofacil/companydeletecompanyid](#delete-apifriofacilcompanydeletecompanyid-🔒)
 - [Home](#home)
-  - [GET /api/friofacil/home](#get-apifriofacilhome)
 - [Convites (Invite)](#convites-invite)
-  - [POST /api/friofacil/createinvite](#post-apifriofacilcreateinvite-🔒)
-  - [PATCH /api/friofacil/respondinvite](#patch-apifriofacilrespondinvite-🔒)
 - [Modelos (Schemas)](#modelos-schemas)
-  - [RegisterRequest](#registerrequest)
-  - [LoginRequest](#loginrequest)
-  - [PaymentCallbackRequest](#paymentcallbackrequest)
-  - [CompanyRequest](#companyrequest)
-  - [CreateInviteRequest](#createinviterequest)
-  - [RespondInviteRequest](#respondinviterequest)
 
 ---
 

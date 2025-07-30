@@ -26,7 +26,7 @@ const config: Config = {
   // TODO: Ajuste para sua org/usuário e repositório
   organizationName: 'UseFrioFacil',
   projectName: 'FrioFacil-docs',
-  
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -47,7 +47,7 @@ const config: Config = {
           // Garante caminho correto do sidebar em setups variados
           sidebarPath: require.resolve('./sidebars.ts'),
           // TODO: Ajuste para seu repositório se quiser "Editar esta página"
-          editUrl: 'https://github.com/UseFrioFacil/FrioFacil-docs/tree/main/docs',
+          editUrl: 'https://github.com/UseFrioFacil/FrioFacil-docs/tree/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -69,8 +69,12 @@ const config: Config = {
     logo: { alt: 'Frio Fácil', src: 'img/floco.png' },
     items: [
       { to: '/', label: 'Docs', position: 'left' },
-      { to: '/planejamento', label: 'Planejamento', position: 'left' },
-      { to: '/produto', label: 'Produto', position: 'left' },
+      { to: '/negocio/introducao', label: 'Introdução', position: 'left' },
+      { to: '/negocio/problema', label: 'Problema', position: 'left' },
+      { to: '/negocio/swot', label: 'SWOT', position: 'left' },
+      { to: '/negocio/lean-canvas', label: 'Lean Canvas', position: 'left' },
+      { to: '/tecnico/backend', label: 'Backend', position: 'left' },
+      { to: '/tecnico/frontend', label: 'Frontend', position: 'left' },
       { href: 'https://usefriofacil.com.br', label: 'Site', position: 'right' },
       { href: 'https://github.com/UseFrioFacil', label: 'GitHub', position: 'right' },
     ],
@@ -82,17 +86,17 @@ const config: Config = {
       {
         title: 'Documentação',
         items: [
-          { label: 'Introdução', to: '/introducao' },
-          { label: 'Problema', to: '/problema' },
-          { label: 'SWOT', to: '/swot' },
-          { label: 'Lean Canvas', to: '/lean-canvas' },
+          { label: 'Introdução', to: '/negocio/introducao' },
+          { label: 'Problema', to: '/negocio/problema' },
+          { label: 'SWOT', to: '/negocio/swot' },
+          { label: 'Lean Canvas', to: '/negocio/lean-canvas' },
         ],
       },
       {
         title: 'Produto',
         items: [
-          { label: 'Backend', to: '/backend' },
-          { label: 'Frontend', to: '/frontend' },
+          { label: 'Backend', to: '/tecnico/backend' },
+          { label: 'Frontend', to: '/tecnico/frontend' },
         ],
       },
       {
