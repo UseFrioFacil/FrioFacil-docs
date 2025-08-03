@@ -8,7 +8,7 @@
 :::
 
 ## Sumário
-- [Autenticação (Auth)](#autenticacao-auth)
+- [Autenticação (Auth)](#autenticação-auth)
 - [Callback](#callback)
 - [Empresa (Company)](#empresa-company)
 - [Home](#home)
