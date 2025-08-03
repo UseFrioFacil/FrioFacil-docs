@@ -31,12 +31,44 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Técnico',
-        description: 'Documentação técnica: backend, frontend e arquitetura do Frio Fácil.',
+        description: 'Documentação técnica completa: arquitetura, backend, frontend e payment API do Frio Fácil.',
         slug: '/tecnico',
       },
       items: [
-        'tecnico/backend',
-        'tecnico/frontend',
+        'tecnico/overview',
+        {
+          type: 'category',
+          label: 'Backend API',
+          link: {
+            type: 'doc',
+            id: 'tecnico/backend/overview',
+          },
+          items: [
+            'tecnico/backend/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Frontend',
+          link: {
+            type: 'doc', 
+            id: 'tecnico/frontend/overview',
+          },
+          items: [
+            'tecnico/frontend/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Payment API',
+          link: {
+            type: 'doc',
+            id: 'tecnico/payment-api/overview',
+          },
+          items: [
+            'tecnico/payment-api/overview',
+          ],
+        },
       ],
     },
     {

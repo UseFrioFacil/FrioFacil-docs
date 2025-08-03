@@ -70,11 +70,10 @@ const config: Config = {
     items: [
       { to: '/', label: 'Docs', position: 'left' },
       { to: '/negocio/introducao', label: 'Introdução', position: 'left' },
-      { to: '/negocio/problema', label: 'Problema', position: 'left' },
-      { to: '/negocio/swot', label: 'SWOT', position: 'left' },
-      { to: '/negocio/lean-canvas', label: 'Lean Canvas', position: 'left' },
-      { to: '/tecnico/backend', label: 'Backend', position: 'left' },
-      { to: '/tecnico/frontend', label: 'Frontend', position: 'left' },
+      { to: '/tecnico/overview', label: 'Arquitetura', position: 'left' },
+      { to: '/tecnico/backend/overview', label: 'Backend', position: 'left' },
+      { to: '/tecnico/frontend/overview', label: 'Frontend', position: 'left' },
+      { to: '/tecnico/payment-api/overview', label: 'Payment API', position: 'left' },
       { href: 'https://usefriofacil.com.br', label: 'Site', position: 'right' },
       { href: 'https://github.com/UseFrioFacil', label: 'GitHub', position: 'right' },
     ],
@@ -95,8 +94,10 @@ const config: Config = {
       {
         title: 'Produto',
         items: [
-          { label: 'Backend', to: '/tecnico/backend' },
-          { label: 'Frontend', to: '/tecnico/frontend' },
+          { label: 'Arquitetura', to: '/tecnico/overview' },
+          { label: 'Backend API', to: '/tecnico/backend/overview' },
+          { label: 'Frontend', to: '/tecnico/frontend/overview' },
+          { label: 'Payment API', to: '/tecnico/payment-api/overview' },
         ],
       },
       {
